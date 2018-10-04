@@ -2,7 +2,31 @@
 
 Aplicação de turismo da região do Alentejo
 
+<!DOCTYPE html>
+<html>
+<head>
 
-Elaboração da Apresentação do Projeto - Resposável -> Diogo Neves
+</head>
+<body>
 
-Criação de um Repositório Git - Resposável -> Diogo Guerreiro
+<table style="width:100%">
+  <tr>
+    <th>Tarefa</th>
+    <th>Responsável</th>
+  </tr>
+  <tr>
+    <td>Elaboração da Apresentação do Projeto</td>
+    <td>Diogo Neves</td>
+  </tr>
+  <tr>
+    <td>Criação de um Repositório Git</td>
+    <td>Diogo Guerreiro</td>
+  </tr>
+  <tr>
+    <td>Definição dos Objetivos</td>
+    <td>Ricardo Mestre</td>
+  </tr>
+</table>
+
+</body>
+</html>
