@@ -5,11 +5,10 @@ Aplicação de turismo da região do Alentejo
 <!DOCTYPE html>
 <html>
 <head>
-
 </head>
 <body>
-
-<table style="width:100%">
+<h2>Responsáveis<h2>
+<table>
   <tr>
     <th>Tarefa</th>
     <th>Responsável</th>
@@ -27,6 +26,5 @@ Aplicação de turismo da região do Alentejo
     <td>Ricardo Mestre</td>
   </tr>
 </table>
-
 </body>
 </html>
