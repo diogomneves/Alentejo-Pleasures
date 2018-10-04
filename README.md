@@ -26,12 +26,10 @@ Aplicação de turismo da região do Alentejo
     <td>Definição dos Objetivos</td>
     <td>Ricardo Mestre</td>
   </tr>
- <p>-Um dos principais objetivos da aplicação é promover o Alentejo. 
- Permitir aos utlizadores da app organizar o seu itinerário, obter informação turística, 
-aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados
-por algum local em especial. Poderão também comentar e avaliar um certo local ou rota 
-turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os 
-   melhores sítios para visitar.</p>
 </table>
 </body>
 </html>
+  
+Um dos principais objetivos da aplicação é promover o Alentejo. 
+Permitir aos utlizadores da app organizar o seu itinerário, obter informação turística, aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados por algum local em especial. Poderão também comentar e avaliar um certo local ou rota 
+turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar.
