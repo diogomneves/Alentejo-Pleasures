@@ -1,1 +1,1 @@
-# Pleasure-of-Alentejo
+# Pleasures-of-Alentejo
