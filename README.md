@@ -8,7 +8,7 @@ Aplicação de turismo da região do Alentejo
 </head>
 <body>
 <h2>Responsáveis<h2>
-<table>
+<table style="width:100%">
   <tr>
     <th>Tarefa</th>
     <th>Responsável</th>
