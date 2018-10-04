@@ -5,6 +5,7 @@ Aplicação de turismo da região do Alentejo
 <!DOCTYPE html>
 <html>
 <head>
+
 </head>
 <body>
 <h2>Responsáveis<h2>
