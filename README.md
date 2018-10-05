@@ -18,7 +18,7 @@
     <th>Responsável</th>
   </tr>
   <tr>
-    <td>Elaboração da Apresentação do Projeto</td>
+    <td>Elaboração e Apresentação do Projeto</td>
     <td>Diogo Neves</td>
   </tr>
   <tr>
