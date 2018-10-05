@@ -31,11 +31,11 @@
   </tr>
 </table>
   
-  <h2> Objetivos da Aplicação </h2>
+  <h2> Objetivos e Funcionalidades da Aplicação </h2>
   
   Um dos principais objetivos da aplicação é promover o Alentejo. 
 Permitir aos utlizadores da app organizar o seu itinerário, obter informação turística, aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados por algum local em especial. Poderão também comentar e avaliar um certo local ou rota 
-turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar.
+turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar. Ex: Rota dos Vinhos, Rotas de Bird Watching entre outros...
 
 
 </body>
