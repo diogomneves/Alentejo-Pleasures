@@ -34,10 +34,11 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <h2> Objetivos e Funcionalidades da Aplicação </h2>
   
   Um dos principais objetivos da aplicação é promover o Alentejo. 
-Permitir aos utlizadores da app organizar o seu itinerário, obter informação turística, aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados por algum local em especial. Poderão também comentar e avaliar um certo local ou rota 
-turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar. Ex: Rota dos Vinhos, Rotas de Bird Watching entre outros...
+Permitir aos utlizadores da app organizar o seu itinerário, através do sistema de navegação GPS, obter informação turística, aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados por algum local em especial. Poderão também comentar e avaliar um certo local ou rota turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar. Ex: Rota dos Vinhos, Rotas de Bird Watching entre outros... Permite também enviar uma notificação aos utlizadores que tenham a aplicação sempre que passem por determinado local de atração turistica, dando-lhe a conhecer esse dito local.
 
  <h2> Objetivos e Funcionalidades da Página Web </h2>
+ 
+ Tem o objetivo de dar a conhecer aos utilizadores, de uma forma mais completa, as descrições dos variados monumentos, rotas e pontos de atração turistica, bem como toda a sua historia e a localização. Permite também ao utilizador fazer login ou inscrever-se na página, para que depois o mesmo possa comentar, avaliar e adicionar os seus locais favoritos. 
 
 
 
