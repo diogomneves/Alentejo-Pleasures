@@ -39,7 +39,15 @@ Permitir aos utlizadores da app organizar o seu itinerário, através do sistema
  <h2> Objetivos e Funcionalidades da Página Web </h2>
  
  Tem o objetivo de dar a conhecer aos utilizadores, de uma forma mais completa, as descrições dos variados monumentos, rotas e pontos de atração turistica, bem como toda a sua historia e a localização. Permite também ao utilizador fazer login ou inscrever-se na página, para que depois o mesmo possa comentar, avaliar e adicionar os seus locais favoritos. 
-
+ 
+  <h2> Servidor </h2>
+  
+  Irá ter uma base de dados que será carregada da página web para a aplicação android, e vice versa, com o objetivo da mesma conta servir para a página na web, bem como para a aplicação.
+  
+  
+  
+  
+  
 
 
 </body>
