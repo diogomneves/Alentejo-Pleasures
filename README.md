@@ -1,6 +1,6 @@
 # Pleasures-of-Alentejo
 
-Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto com uma Aplicação Web, com o objetivo de promover e dar a conhecer todos os encantos do Alentejo.
+Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto com uma Página Web, com o objetivo de promover e dar a conhecer todos os encantos do Alentejo.
 
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
 Permitir aos utlizadores da app organizar o seu itinerário, obter informação turística, aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados por algum local em especial. Poderão também comentar e avaliar um certo local ou rota 
 turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar. Ex: Rota dos Vinhos, Rotas de Bird Watching entre outros...
 
- <h2> Objetivos e Funcionalidades da Aplicação Web </h2>
+ <h2> Objetivos e Funcionalidades da Página Web </h2>
 
 
 
