@@ -16,23 +16,22 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <tr>
     <th>Tarefa</th>
     <th>Responsável</th>
-    <th>Descrição</th>
+    <th>Descrição da Tarefa</th>
   </tr>
   <tr>
     <td>Elaboração e Apresentação do Projeto</td>
     <td>Diogo Neves</td>
+    <td>Concluida</td>
   </tr>
   <tr>
     <td>Criação de um Repositório Git</td>
     <td>Diogo Guerreiro</td>
+    <td>Concluida</td>
   </tr>
   <tr>
     <td>Definição dos Objetivos</td>
     <td>Ricardo Mestre</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>Concluida</td>
   </tr>
 </table>
   
