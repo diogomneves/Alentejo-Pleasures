@@ -43,7 +43,7 @@ Permitir aos utlizadores da app organizar o seu itinerário, através do sistema
  
  Permitir também enviar uma notificação aos utlizadores que tenham a aplicação sempre que passem por determinado local de atração turistica, dando-lhe a conhecer esse dito local.
 
- <h2> Funcionalidades da Página Web <h2>
+ <h2> Funcionalidades da Página Web </h2>
  
  Tem o objetivo de dar a conhecer aos utilizadores, de uma forma mais completa, as descrições dos variados monumentos, rotas e pontos de atração turistica, bem como toda a sua historia e a localização. Permite também ao utilizador fazer login ou inscrever-se na página, para que depois o mesmo possa comentar, avaliar e adicionar os seus locais favoritos. 
  
