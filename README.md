@@ -16,6 +16,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <tr>
     <th>Tarefa</th>
     <th>Responsável</th>
+    <th>Descrição</th>
   </tr>
   <tr>
     <td>Elaboração e Apresentação do Projeto</td>
@@ -29,29 +30,29 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>Definição dos Objetivos</td>
     <td>Ricardo Mestre</td>
   </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
   
   <h2> Objetivos Minimos </h2>
-   
-Permitir aos utlizadores da app organizar o seu itinerário, através do sistema de navegação GPS, obter informação turística, aceder à sua conta pessoal e aos seus conteúdos favoritos e ainda pesquisar na base de dados por algum local em especial. Poderão também comentar e avaliar um certo local ou rota turística para que a app funcione em comunidade e todos os utilizadores possam ver quais os melhores sítios para visitar. Ex: Rota dos Vinhos, Rotas de Bird Watching entre outros... 
+  
+  - Criar conta pessoal para entrar na app;
+  - Poder adicionar conteudos favoritos;
+  - Comentar e avaliar um determinado local ou rota;
+  - Visualização de itenerarios baseados em rotas predefinidas;
 
  <h2> Objetivos Médios </h2>
  
- Ordenar por classificações baseadas nas pontuações dadas pelos utilizadores, e filtrar por determinada região, monumento, alojamento...
+  - Ordenar pelas classificações dados pelos utilizadores;
 
  <h2> Objetivos Avançados </h2>
  
- Permitir também enviar uma notificação aos utlizadores que tenham a aplicação sempre que passem por determinado local de atração turistica, dando-lhe a conhecer esse dito local.
+  - Enviar notificação sempre o utilizadpr passe por determinado ponto de atração turistica;
+  - Sistema de navegação GPS, baseado em rotas personalizadas;
 
- <h2> Funcionalidades da Página Web </h2>
  
- Tem o objetivo de dar a conhecer aos utilizadores, de uma forma mais completa, as descrições dos variados monumentos, rotas e pontos de atração turistica, bem como toda a sua historia e a localização. Permite também ao utilizador fazer login ou inscrever-se na página, para que depois o mesmo possa comentar, avaliar e adicionar os seus locais favoritos. 
- 
-    
-  
-  
-
-
 </body>
 </html>
 
