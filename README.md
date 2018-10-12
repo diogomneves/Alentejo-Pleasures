@@ -22,13 +22,13 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <tr>
     <td>Elaboração e Apresentação do Projeto</td>
     <td>Diogo Neves</td>
-    <td>Concluida</td>
+    <td>Criação de powerpoint para apresentação do tema do trabalho</td>
     <td>4</td>
   </tr>
   <tr>
     <td>Criação de um Repositório Git</td>
     <td>Diogo Guerreiro</td>
-    <td>Concluida</td>
+    <td>Criação das contas de cada elemento do grupo e criação do repositório</td>
     <td>4</td>
   </tr>
   <tr>
