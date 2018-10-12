@@ -37,6 +37,12 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>Concluida</td>
     <td>4</td>
   </tr>
+  <tr>
+    <td>Desenho da app</td>
+    <td>Diogo Neves</td>
+    <td>Concluida</td>
+    <td>5</td>
+  </tr>
 </table>
   
   <h2> Objetivos Minimos </h2>
@@ -55,6 +61,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
  
   - Enviar notificação sempre o utilizadpr passe por determinado ponto de atração turistica;
   - Sistema de navegação GPS, baseado em rotas personalizadas.
+  - Na caegoria dos hóteis poder realizar a reserva.
 
  
 </body>
