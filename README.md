@@ -34,13 +34,13 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <tr>
     <td>Definição dos Objetivos</td>
     <td>Ricardo Mestre</td>
-    <td>Concluida</td>
+    <td>Foram definidos os objetivos mínimos, médios e avançados</td>
     <td>4</td>
   </tr>
   <tr>
     <td>Desenho da app</td>
     <td>Diogo Neves</td>
-    <td>Concluida</td>
+    <td>Desenho da aplicação para android</td>
     <td>5</td>
   </tr>
 </table>
