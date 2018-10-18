@@ -1,4 +1,4 @@
-# Pleasures-of-Alentejo
+# Alentejo Pleasures
 
 Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto com uma Página Web, com o objetivo de promover e dar a conhecer todos os encantos do Alentejo.
 
