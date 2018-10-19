@@ -47,7 +47,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>Desenho da base de dados</td>
     <td>Diogo Guerreiro</td>
     <td>Desenho da base de dados da app</td>
-    <td>5</td>
+    <td>4</td>
   </tr>
 </table>
   
