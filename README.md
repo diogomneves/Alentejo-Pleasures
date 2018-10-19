@@ -71,10 +71,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   
    <h2> Requisitos de Hardware </h2>
    
-   Sistema Operativo - Base Debian
-
-
-    Requistos de Hardware 
+   Sistema Operativo - Base Debian 
 
     CPU - 1 GHz 
 
@@ -86,10 +83,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
 
 
 
-
-
     Sistema Operativo - Windows Server 
-
 
     CPU - 1.4 GHz
 
