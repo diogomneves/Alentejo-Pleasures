@@ -68,6 +68,34 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   - Enviar notificação sempre o utilizadpr passe por determinado ponto de atração turistica;
   - Sistema de navegação GPS, baseado em rotas personalizadas.
   - Na caegoria dos hóteis poder realizar a reserva.
+  
+   <h2> Requisitos de Hardware </h2>
+   
+   Sistema Operativo - Base Debian
+
+
+    Requistos de Hardware 
+
+    CPU - 1 GHz 
+
+    RAM - 512 MB
+
+    System - 1.5 GB
+
+    All Tasks - 2.5 GB
+
+
+
+
+
+    Sistema Operativo - Windows Server 
+
+
+    CPU - 1.4 GHz
+
+    RAM - 512 MB
+
+    Disk - 32 GB
 
  
 </body>
