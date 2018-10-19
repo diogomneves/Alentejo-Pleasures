@@ -40,7 +40,13 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <tr>
     <td>Desenho da app</td>
     <td>Diogo Neves</td>
-    <td>Desenho da aplicação para android</td>
+    <td>Desenho da aplicação para android e da página web</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Desenho da base de dados</td>
+    <td>Diogo Guerreiro</td>
+    <td>Desenho da base de dados da app</td>
     <td>5</td>
   </tr>
 </table>
