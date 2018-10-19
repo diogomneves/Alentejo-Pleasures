@@ -73,17 +73,17 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
    
    Sistema Operativo - Ubuntu Server 
    
-   CPU - 1 Ghz
-   RAM - 512 MB
-   System - 1.5 GB
+   CPU - 1 Ghz <br>
+   RAM - 512 MB <br>
+   System - 1.5 GB <br>
    All Files - 2.5 GB
    
    <br><br>
    
    Sistema Operativo - Windows Server
    
-   CPU - 1.4 GHz
-   RAM - 512 MB
+   CPU - 1.4 GHz <br>
+   RAM - 512 MB <br>
    Disk - 32 GB
  
 </body>
