@@ -71,26 +71,20 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   
    <h2> Requisitos de Hardware </h2>
    
-   Sistema Operativo - Base Debian 
-
-    CPU - 1 GHz 
-
-    RAM - 512 MB
-
-    System - 1.5 GB
-
-    All Tasks - 2.5 GB
-
-
-
-    Sistema Operativo - Windows Server 
-
-    CPU - 1.4 GHz
-
-    RAM - 512 MB
-
-    Disk - 32 GB
-
+   Sistema Operativo - Ubuntu Server 
+   
+   CPU - 1 Ghz
+   RAM - 512 MB
+   System - 1.5 GB
+   All Files - 2.5 GB
+   
+   <br><br>
+   
+   Sistema Operativo - Windows Server
+   
+   CPU - 1.4 GHz
+   RAM - 512 MB
+   Disk - 32 GB
  
 </body>
 </html>
