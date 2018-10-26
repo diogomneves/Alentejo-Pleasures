@@ -52,7 +52,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <td>Criação da base de dados</td>
     <td>Ricardo Mestre</td>
     <td>Criação da base de dados em MySQl</td>
-    <td>4</td>
+    <td></td>
   </tr>
 </table>
   
