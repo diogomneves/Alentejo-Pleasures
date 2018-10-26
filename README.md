@@ -38,7 +38,7 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>4</td>
   </tr>
   <tr>
-    <td>Desenho da app</td>
+    <td>Desenho da aplicação e da página web</td>
     <td>Diogo Neves</td>
     <td>Desenho da aplicação para android e da página web</td>
     <td>4</td>
@@ -47,6 +47,11 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>Desenho da base de dados</td>
     <td>Diogo Guerreiro</td>
     <td>Desenho da base de dados da app</td>
+    <td>5</td>
+  </tr>
+  <td>Criação da base de dados</td>
+    <td>Ricardo Mestre</td>
+    <td>Criação da base de dados em MySQl</td>
     <td>4</td>
   </tr>
 </table>
