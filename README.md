@@ -52,7 +52,19 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
   <td>Criação da base de dados</td>
     <td>Ricardo Mestre</td>
     <td>Criação da base de dados em MySQl</td>
-    <td></td>
+    <td>4</td>
+  </tr>
+</table>
+    <td>Configuração do Servidor</td>
+    <td>Diogo Neves</td>
+    <td>Configuração do ubuntu server</td>
+    <td>4</td>
+  </tr>
+</table>
+  <td>Continuação da configuração do servidor e edição do template</td>
+    <tdDiogo Guerreiro</td>
+    <td>Continuação da configuração do servidor como também a edição do respetivo template</td>
+    <td>4</td>
   </tr>
 </table>
   
