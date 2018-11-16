@@ -64,6 +64,18 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>Continuação da configuração do servidor como também a edição do respetivo template</td>
     <td>4</td>
   </tr>
+   </tr>
+    <td>Configuração do Servidor</td>
+    <td>Ricardo Mestre</td>
+    <td>Configuração do ubuntu server</td>
+    <td>4</td>
+  </tr>
+   </tr>
+    <td>Configuração do Servidor</td>
+    <td>Diogo Neves</td>
+    <td>Configuração do ubuntu server</td>
+    <td>4</td>
+  </tr>
 </table>
   
   <h2> Objetivos Minimos </h2>
