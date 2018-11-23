@@ -71,9 +71,15 @@ Este projeto tem como finalidade desenvolver uma Aplicação Android em conjunto
     <td>4</td>
   </tr>
    </tr>
-    <td>Configuração do Servidor</td>
+    <td>Continuação da configuração do Servidor</td>
     <td>Diogo Neves</td>
     <td>Configuração do ubuntu server</td>
+    <td>4</td>
+  </tr>
+   <tr>
+    <td>Continuação da configuração do Servidor e Inserção de Dados</td>
+    <td>Diogo Guerreiro</td>
+    <td>Continuação da configuração do ubuntu server como também a estruturação da inserção de dados na base de dados</td>
     <td>4</td>
   </tr>
 </table>
