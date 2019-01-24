@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 14-Jan-2019 às 13:25
+-- Generation Time: 24-Jan-2019 às 12:16
 -- Versão do servidor: 10.1.36-MariaDB
 -- versão do PHP: 7.2.10
 
@@ -171,6 +171,13 @@ CREATE TABLE `favorites` (
   `local_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `favorites`
+--
+
+INSERT INTO `favorites` (`favorite_id`, `user_id`, `local_id`) VALUES
+(1, 1, 47);
+
 -- --------------------------------------------------------
 
 --
@@ -182,6 +189,13 @@ CREATE TABLE `favorites_route` (
   `route_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `favorites_route`
+--
+
+INSERT INTO `favorites_route` (`favorites_route_id`, `route_id`, `user_id`) VALUES
+(1, 5, 1);
 
 -- --------------------------------------------------------
 
@@ -292,7 +306,7 @@ INSERT INTO `local` (`local_id`, `name`, `address`, `image`, `description`, `loc
 (83, 'Praia de Tróia Mar', '', 'http://www.visitasvirtuais.com/images/locais/PraiaTroiaMarFoto.jpg', '', '38.4918307,-8.9087354,17', NULL, 46, 4),
 (84, 'Praia da Comporta', '', 'http://www.visitasvirtuais.com/images/locais/PraiaComportaFoto.jpg', '', '38.3809097,-8.8057251,17', NULL, 45, 4),
 (85, 'Praia da Raposa', '', 'https://media.timeout.com/images/105265935/630/472/image.jpg', '', '38.257441,-8.7777437,17', NULL, 46, 4),
-(86, 'Herdade das Cortiçadas', 'Herdade das Cortiçadas - S. Sebastião da Giesteira', 'https://static.viatecla.com/herancasdoalentejo/share/2018-04/54a09654-8b2a-4254-9783-9fb4de8fe0da/0a04de92-96fd-4c21-8c0e-2b3f06d6d362/imagem_detalhe/f6fa70bc-68da-4f6d-93df-7bf63904af45/2018042310561', 'A Herdade das Cortiçadas é uma propriedade privada, inserida na Região de Évora, onde a tradição e a arte de fazer Vinho se perdem nos tempos. A adega tradicional recentemente otimizada pelas modernas tecnologias de inox e controlo de temperaturas, mantendo, no entanto, parte da transformação da sua uva, pelas técnicas tradicionais, com prensas manuais.', '38.5913890,-8.0958330', NULL, 21, 6),
+(86, 'Herdade das Cortiçadas', 'Herdade das Cortiçadas - S. Sebastião da Giesteira', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-415.jpg', 'A Herdade das Cortiçadas é uma propriedade privada, inserida na Região de Évora, onde a tradição e a arte de fazer Vinho se perdem nos tempos. A adega tradicional recentemente otimizada pelas modernas tecnologias de inox e controlo de temperaturas, mantendo, no entanto, parte da transformação da sua uva, pelas técnicas tradicionais, com prensas manuais.', '38.5913890,-8.0958330', NULL, 21, 6),
 (87, 'Adega de Redondo', 'Estrada de Évora, Apt. 26 7170-999 Redondo', 'http://www.cm-redondo.pt/pt/site-visitar/Saborear/PublishingImages/Adega%20de%20Redondo.jpg?RenditionID=16&Width=639&Height=362', 'A Adega de Redondo (AR) é um dos casos de maior sucesso no panorama vínico português, com a particularidade de contar já com mais de meio século de existência.\r\nUma história incontornável, ou não se trate de um produtor que, por si só, é responsável pela venda de 15 milhões de garrafas de vinho por ano! Um número que traduz, de forma inequívoca, a dimensão, prestígio e notoriedade alcançada junto dos cada vez mais exigentes consumidores.', '38.64374,-7.55598', NULL, 26, 6),
 (88, 'Adega Cooperativa de Vidigueira, Cuba e Alvito, C.R.L.', 'Bairro Industrial 7960-305 Vidigueira', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-433.jpg', 'A Adega Cooperativa de Vidigueira, Cuba e Alvito, C.R.L. conta já com mais de meio século de história (1960), sendo o resultado do sonho, do esforço e do trabalho da maioria dos viticultores das regiões de Vidigueira, Cuba e Alvito (atualmente cerca de 300 sócios ativos).\r\nÉ uma «casa» que se procura diariamente reinventar num cruzamento de «linhas» que se complementam e reinventam. A «linha» da planície alentejana que através de gerações foi contínua e traça a longa experiência da Adega, a «linha» que se inspira no horizonte marítimo de outros tempos, numa visão de descoberta e conquista de futuro, de reinvenção e modernização; a «linha» de uma cultura que se desenlaça na descoberta de sabores e sensações – o vinho – unida pelas gentes que, ontem e hoje, alinham todos estas linhas numa «linha» só, a ADEGA.', '38.2067750,-7.7990972', NULL, 44, 6),
 (89, 'Adega de Borba', 'Largo Gago Coutinho e Sacadura Cabral, 25, Apt. 20\r\n7151 - 913 Borba', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-423.jpg', 'Fundada em 1955, a Adega de Borba foi a primeira de uma série de Adegas constituídas no Alentejo, com o incentivo da então Junta Nacional do Vinho, numa altura em que o setor não tinha o protagonismo que hoje tem na economia regional. De facto, não fosse esse empurrão decisivo dado pelo referido organismo estatal, que assim permitiu uma organização comercial e de transformação para os vinhos do Alentejo, a cultura da vinha teria desaparecido completamente da região, pois todos os incentivos da época estavam virados para a cultura dos cereais, e fazer do Alentejo o celeiro do País era uma política mais que consolidada para a época.', '38.8075222,-7.4633917 ', NULL, 19, 6),
@@ -346,7 +360,7 @@ INSERT INTO `local` (`local_id`, `name`, `address`, `image`, `description`, `loc
 (141, 'Terras de Alter', 'Rua Cerrado da Feira Lote 22 a 28 – Zona Industrial 7460-102 Fronteira', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-474.jpg', 'Terras de Alter, Companhia de Vinhos, Lda., utiliza as uvas produzidas pelos seus sócios, na região de Alter do Chão e Fronteira, embora também se abasteça nas produções do Alto Alentejo, conforme as suas necessidades específicas.\r\nCom a ambição de dar a conhecer ao mundo os vinhos portugueses, Terras de Alter tem como objetivo lançar no mercado internacional um vinho Alentejano de excelente qualidade. Os mercados alvo são essencialmente Europa e Estados Unidos.', '39.200999, -7.660323', NULL, 8, 6),
 (142, 'Torre de Palma', 'Herdade de Torre de Palma 7450-250 Monforte', 'https://media-cdn.tripadvisor.com/media/photo-s/12/5b/71/43/exterior.jpg', 'A Adega e as vinhas do Torre de Palma - Wine Hotel estão localizadas no coração do Alentejo Vinhateiro, em Monforte. Influenciado pelo microclima da Serra de São Mamede e produzidos quase artesanalmente, resulta numa combinação perfeita para a criação de vinhos únicos, em total harmonia com a Natureza.', '39.068340, -7.488879', NULL, 11, 6),
 (143, 'Restaurante Páteo Real', 'Avenida Doutor Joao Pestana 37', 'https://lifecooler.com/files/registos/imagens/337519/66814.jpg', 'Borrego assado no forno, açorda à alentejana, ensopado de borrego, sopa de cação, sopa da panela, sopa de beldroegas, sopa de tomate, sopa de toucinho, cozido à Portuguesa à moda do Alentejo.', '39.1980952,-7.6598118', '11:00–22:00', 1, 1),
-(144, 'A Cabana', 'R. de Olivença 20A, 7340-019 Arronches', 'https://2.bp.blogspot.com/dzrwA6gpgYs/UP6zkqvqszI/AAAAAAAAIPw/5gzQSI_k8Gc/s1600/C%C3%B3pia+de+IMG_7417.JPG', 'Borrego assado no forno, açorda à alentejana, ensopado de borrego, sopa de cação, sopa da panela, sopa de beldroegas, sopa de tomate, sopa de toucinho, cozido à Portuguesa à moda do Alentejo.', '39.1211344,-7.2863745', 'Qua – Seg 07:00 - 02:00', 2, 1),
+(144, 'A Cabana', 'R. de Olivença 20A, 7340-019 Arronches', 'https://apis.infoportugal.info/cms-media/pois/final/142/EPD.RE.21001-142191.JPG', 'Borrego assado no forno, açorda à alentejana, ensopado de borrego, sopa de cação, sopa da panela, sopa de beldroegas, sopa de tomate, sopa de toucinho, cozido à Portuguesa à moda do Alentejo.', '39.1211344,-7.2863745', 'Qua – Seg 07:00 - 02:00', 2, 1),
 (145, 'Tasca Do Montinho', 'R. do Comércio 6', 'https://lifecooler.com/files/registos/imagens/364896/236463.jpg', 'Borrego assado no forno, açorda à alentejana, ensopado de borrego, sopa de cação, sopa da panela, sopa de beldroegas, sopa de tomate, sopa de toucinho, cozido à Portuguesa à moda do Alentejo.', '39.0082008,-7.9183542', 'Qua – Seg 07:00 - 02:00', 3, 1),
 (146, 'Taberna O Ministro', 'Av. dos Combatentes da Grande Guerra 2A, 7370-052 ', 'https://media-cdn.tripadvisor.com/media/photo-s/12/73/e9/53/barra.jpg', 'Borrego assado no forno, açorda à alentejana, ensopado de borrego, sopa de cação, sopa da panela, sopa de beldroegas, sopa de tomate, sopa de toucinho, cozido à Portuguesa à moda do Alentejo.', '39.0138951,-7.0695426', 'Qua – Seg 07:00 - 02:00', 4, 1),
 (147, 'Don Pedro V Restaurante', 'Praça D. Pedro V 10, 7320-113', 'https://media-cdn.tripadvisor.com/media/photo-s/09/73/15/4c/o-almoco-no-d-pedro-v.jpg', 'Borrego assado no forno, açorda à alentejana, ensopado de borrego, sopa de cação, sopa da panela, sopa de beldroegas, sopa de tomate, sopa de toucinho, cozido à Portuguesa à moda do Alentejo.', '39.4149608,-7.4579288', 'Qua – Seg 07:00 - 02:00', 5, 1),
@@ -432,7 +446,8 @@ INSERT INTO `local` (`local_id`, `name`, `address`, `image`, `description`, `loc
 (227, 'Castelo Alcácer do Sal', '7580-197 Alcácer do Sal', 'https://q-ec.bstatic.com/images/hotel/max1024x768/745/74523873.jpg', 'À época da Reconquista cristã da Península Ibérica, no mesmo ano da conquista de Lisboa aos mouros (1147), Alcácer do Sal foi acometida por D. Afonso Henriques (1112-1185) à frente de uma reduzida força de assalto de 60 cavaleiros que, pretendendo explorar o elemento surpresa, foram vigorosamente repelidos pelos defensores, que lograram ferir o soberano. A região ainda resistiu por alguns anos às arremetidas portuguesas, particularmente em 1151, 1152 e 1157, vindo a cair apenas em 1158, com o auxílio dos cavaleiros da Ordem de Santiago da Espada. \r\nPara melhor defesa e povoamento da região, Sancho I de Portugal (1185-1211) efetuou a doação desta vila e seu castelo aquela Ordem militar (1186). Entretanto, ainda no reinado deste soberano, as forças do Califado Almóada sob o comando do califa Iacube Almançor reconquistam o Algarve e, avançando para o norte, arrancam ao domínio português, sucessivamente, o Castelo de Alcácer do Sal, o Castelo de Palmela e o Castelo de Almada (1190-1191). Só após a Batalha de Navas de Tolosa (1212), em que se registou uma vitória decisiva dos cristãos peninsulares contra os mouros, foram reconquistadas as terras perdidas para além da linha das fronteiras que se estendia do rio Tejo até Évora.', '37.9444873,-7.5998237', 'Aberto', 45, 3),
 (228, 'Igreja Matriz de Grândola', 'Praça Marquês de Pombal, 7570-139 Grândola', 'https://media-cdn.tripadvisor.com/media/photo-s/0a/53/fd/80/inside-view.jpg', 'Degradada e a precisar de obras em 1482, é possível que a construção da igreja de Nossa Senhora da Abendada remonte a meados do século XV. Em 1513, D. Jorge (mestre da Ordem de Santiago), aquando da sua visitação, mandou reparar a igreja por apresentar alguma degradação: as pinturas murais estavam deterioradas, a pia batismal era uma tina grande em barro e o corpo da igreja encontrava-se por ladrilhar.', '38.175753,-8.5706842', 'Aberto', 46, 3),
 (229, 'Ruínas Romanas de Miróbriga', 'Herdade dos Chãos Salgados, 7540-236', 'http://1.bp.blogspot.com/-LYiqpqdCnOI/VVkO0MT17gI/AAAAAAAAWN8/7xNnICbZ5FM/s1600/DSC_0090.JPG', 'O Sítio Arqueológico de Miróbriga, localizado junto à cidade de Santiago do Cacém, albergou um povoado que surgiu durante o Bronze Final e a Idade do Ferro (séculos VI-I a.C.) e permaneceu até ao século IV d.C. Estas ruínas estão referenciadas desde o século XVI por André Resende e estão assentes sobre uma elevação provida de estruturas defensivas, numa zona de visibilidade favorecida, o que permitia o controle territorial de uma vasta região, que conta com vários ‘recursos agrícolas, marítimos e mineiros, pelo que este povoado terá desempenhado um papel comercial de relativo destaque’.', '38.0101395,-8.6866711', 'Aberto', 47, 3),
-(230, 'Castelo de Sines', 'R. do Muro da Praia, 7520-151 Sines', 'http://www.sines.pt/thumbs/cmsines/uploads/writer_file/image/79/V_Pmat_Castelo_1_980_2500.jpg', 'À época da Reconquista cristã da Península Ibérica, a região foi conquistada por D. Sancho I (1185-1211) entre o final do século XII e o início do século XIII. O seu filho e sucessor, D. Afonso II (1211-1223) fez a doação dos domínios de Sines aos cavaleiros da Ordem de Santiago. A povoação de pescadores recebeu Carta de Foral de D. Pedro I (1357-1367) em Novembro de 1362, desligando-se de Santiago do Cacém, com a determinação da edificação de uma fortificação. Sem que a mesma tivesse se materializado, e sendo esse trecho da costa tradicionalmente assolado pelas razias de corsários, visando prover à defesa da vila, D. João I (1385-1433) isentou os seus moradores do serviço militar nas campanhas da fronteira (1395). \r\nO castelo foi erguido, de raiz, apenas em 1424, por solicitação do procurador do povo, Francisco Neto Chainho Pão Alvo. Foi seu Alcaide-mor, mais tarde, Estêvão da Gama, pai do navegador Vasco da Gama, que aqui teria nascido em 1469.', '37.9553361,-8.8683524', 'Aberto', 48, 3);
+(230, 'Castelo de Sines', 'R. do Muro da Praia, 7520-151 Sines', 'http://www.sines.pt/thumbs/cmsines/uploads/writer_file/image/79/V_Pmat_Castelo_1_980_2500.jpg', 'À época da Reconquista cristã da Península Ibérica, a região foi conquistada por D. Sancho I (1185-1211) entre o final do século XII e o início do século XIII. O seu filho e sucessor, D. Afonso II (1211-1223) fez a doação dos domínios de Sines aos cavaleiros da Ordem de Santiago. A povoação de pescadores recebeu Carta de Foral de D. Pedro I (1357-1367) em Novembro de 1362, desligando-se de Santiago do Cacém, com a determinação da edificação de uma fortificação. Sem que a mesma tivesse se materializado, e sendo esse trecho da costa tradicionalmente assolado pelas razias de corsários, visando prover à defesa da vila, D. João I (1385-1433) isentou os seus moradores do serviço militar nas campanhas da fronteira (1395). \r\nO castelo foi erguido, de raiz, apenas em 1424, por solicitação do procurador do povo, Francisco Neto Chainho Pão Alvo. Foi seu Alcaide-mor, mais tarde, Estêvão da Gama, pai do navegador Vasco da Gama, que aqui teria nascido em 1469.', '37.9553361,-8.8683524', 'Aberto', 48, 3),
+(231, 'A bilha', 'Rua de AlmodÃ´var nÂº82, Rua de Almodovar', 'asdsda', 'asdsad', 'asdas', 'dasdsad', 1, 2);
 
 -- --------------------------------------------------------
 
@@ -533,6 +548,13 @@ CREATE TABLE `ranking` (
   `local_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `ranking`
+--
+
+INSERT INTO `ranking` (`ranking_id`, `ranking`, `date`, `user_id`, `local_id`) VALUES
+(1, 3, '2019-01-23', 1, 47);
+
 -- --------------------------------------------------------
 
 --
@@ -557,6 +579,7 @@ CREATE TABLE `route` (
   `route_id` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
   `description` text NOT NULL,
+  `image` varchar(200) DEFAULT NULL,
   `route_category_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -564,17 +587,17 @@ CREATE TABLE `route` (
 -- Extraindo dados da tabela `route`
 --
 
-INSERT INTO `route` (`route_id`, `name`, `description`, `route_category_id`) VALUES
-(1, 'Rota da Costa Norte', 'Uma rota de 7 praias( duração miníma de 5h), com a seguinte sequência:\r\n -Praia Tróia-Mar\r\n -Praia da Comporta\r\n -Praia do Carvalhal\r\n -Praia da Raposa\r\n -Praia de São Torpes\r\n -Praia da Baía de Porto Covo\r\n -Praia da ilha do Pessegueiro', 1),
-(2, 'Rota da Costa Centro', 'Uma rota de 4 praias( duração miníma de 1 hora), todas elas na vila de Milfontes:\r\n -Praia da Franquia\r\n -Praia do Farol\r\n -Praia do Carreiro\r\n -Praia do Patacho', 1),
-(3, 'Rota da Costa Sul', 'Uma rota de 4 praias( duração miníma de 2 horas), com a seguinte sequência:\r\n -Praia do Tonel\r\n -Praia da Zambujeira do Mar\r\n -Praia da Amália\r\n -Praia da Azenha do Mar', 1),
-(4, 'Rota de Nossa Senhora', 'Uma rota de 5 praias( duração miníma de 2 horas), com a seguinte sequência:\r\n -Praia das Furnas\r\n -Praia do Brejo Largo\r\n -Praia de Almograve\r\n -Praia de Nossa Senhora\r\n -Praia dos Machados', 1),
-(5, 'Rota do Mouchão', 'Uma rota de 10 adegas( duração miníma de 5 horas), com a seguinte sequência:\r\n-Monte da Raposinha\r\n-Herdade do Mouchão\r\n-Fundação Abreu Callado\r\n-Terras de Alter\r\n-Monte da Penha\r\n-Torre Palma\r\n-Herdade Perdigão\r\n-Herdade Fonte Paredes\r\n-Adega Mayor\r\n-Adega Herdade das Aldeias de Juromenha', 2),
-(6, 'Rota do Mouro', 'Uma rota de 10 adegas( duração miníma de 2 horas), com a seguinte sequência:\r\n-Monte da Ravasqueira\r\n-Monte da Comenda\r\n-Herdade das Servas\r\n-J.Portugal Ramos Vinhos\r\n-Encostas de Estremoz\r\n-Adega do Monte Branco\r\n-Quinta do Mouro\r\n-Vinhos Dona Maria\r\n-Adega Cooperativa de Borba\r\n-Quinta Zambujeiro', 2),
-(7, 'Rota das cortiçadas', 'Uma rota de 7 adegas( duração miníma de 3 horas), com a seguinte sequência:\r\n-Fernando Manuel Roma Pereira Toscano\r\n-Herdade do Menir\r\n-Quinta da Plansel\r\n-Herdade das Cortiçadas \r\n-Dona Dorinda Organic Wines\r\n-Herdade da Calada\r\n-Casa Relvas', 2),
-(8, 'Rota do Esporão', 'Uma rota de 7 adegas( duração miníma de 4 horas), com a seguinte sequência:\r\n-Herdade do Freixo\r\n-Adega Cooperativa de Redondo\r\n-Carmim\r\n-Adega José de Sousa\r\n-Herdade do Esporão\r\n-Herdade Monte da Ribeira\r\n-Herdade do Vau', 2),
-(9, 'Rota da Pigarça', 'Uma rota de 8 adegas( duração miníma de 3 horas), com a seguinte sequência:\r\n-Herdade da Malhadinha Nova\r\n-Herdade dos Grous\r\n-Herdade da Mingorra\r\n-Sociedade Agrícola da Figueirinha\r\n-Monte da Pigarça\r\n-Herdade do Rocim\r\n-Machados\r\n-Vinhos Margaça', 2),
-(10, 'Rota do Ribafreixo', 'Uma rota de 5 adegas( duração miníma de 2 horas), com a seguinte sequência:\r\n-Herdade Grande\r\n-Quinta do Quetzal\r\n-Adega Cooperativa de Vidigueira\r\n-Ribafreixo Wines\r\n-Herdade do Sobroso', 2);
+INSERT INTO `route` (`route_id`, `name`, `description`, `image`, `route_category_id`) VALUES
+(1, 'Rota da Costa Norte', 'Uma rota de 7 praias( duração miníma de 5h), com a seguinte sequência:\r\n -Praia Tróia-Mar\r\n -Praia da Comporta\r\n -Praia do Carvalhal\r\n -Praia da Raposa\r\n -Praia de São Torpes\r\n -Praia da Baía de Porto Covo\r\n -Praia da ilha do Pessegueiro', 'http://www.100surf.pt/site/common/images/img.php?table=praia&key=praia_chav&column=praia_img&id=222', 1),
+(2, 'Rota da Costa Centro', 'Uma rota de 4 praias( duração miníma de 1 hora), todas elas na vila de Milfontes:\r\n -Praia da Franquia\r\n -Praia do Farol\r\n -Praia do Carreiro\r\n -Praia do Patacho', 'https://images.turismoenportugal.org/Praia-do-Farol-Vila-Nova-de-Mil-Fontes.jpg', 1),
+(3, 'Rota da Costa Sul', 'Uma rota de 4 praias( duração miníma de 2 horas), com a seguinte sequência:\r\n -Praia do Tonel\r\n -Praia da Zambujeira do Mar\r\n -Praia da Amália\r\n -Praia da Azenha do Mar', 'https://nit.pt/wp-content/uploads/2017/10/900dffc4fc2036d0e14cd44a0494c249-754x394.jpg', 1),
+(4, 'Rota de Nossa Senhora', 'Uma rota de 5 praias( duração miníma de 2 horas), com a seguinte sequência:\r\n -Praia das Furnas\r\n -Praia do Brejo Largo\r\n -Praia de Almograve\r\n -Praia de Nossa Senhora\r\n -Praia dos Machados', 'http://www.cm-odemira.pt/uploads/poi/image/532/praia_do_almograve_main.jpg', 1),
+(5, 'Rota do Mouchão', 'Uma rota de 10 adegas( duração miníma de 5 horas), com a seguinte sequência:\r\n-Monte da Raposinha\r\n-Herdade do Mouchão\r\n-Fundação Abreu Callado\r\n-Terras de Alter\r\n-Monte da Penha\r\n-Torre Palma\r\n-Herdade Perdigão\r\n-Herdade Fonte Paredes\r\n-Adega Mayor\r\n-Adega Herdade das Aldeias de Juromenha', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-640.jpg', 2),
+(6, 'Rota do Mouro', 'Uma rota de 10 adegas( duração miníma de 2 horas), com a seguinte sequência:\r\n-Monte da Ravasqueira\r\n-Monte da Comenda\r\n-Herdade das Servas\r\n-J.Portugal Ramos Vinhos\r\n-Encostas de Estremoz\r\n-Adega do Monte Branco\r\n-Quinta do Mouro\r\n-Vinhos Dona Maria\r\n-Adega Cooperativa de Borba\r\n-Quinta Zambujeiro', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-423.jpg', 2),
+(7, 'Rota das cortiçadas', 'Uma rota de 7 adegas( duração miníma de 3 horas), com a seguinte sequência:\r\n-Fernando Manuel Roma Pereira Toscano\r\n-Herdade do Menir\r\n-Quinta da Plansel\r\n-Herdade das Cortiçadas \r\n-Dona Dorinda Organic Wines\r\n-Herdade da Calada\r\n-Casa Relvas', 'http://www.vinhosdoalentejo.pt/media/produtores/produtor-924.jpg', 2),
+(8, 'Rota do Esporão', 'Uma rota de 7 adegas( duração miníma de 4 horas), com a seguinte sequência:\r\n-Herdade do Freixo\r\n-Adega Cooperativa de Redondo\r\n-Carmim\r\n-Adega José de Sousa\r\n-Herdade do Esporão\r\n-Herdade Monte da Ribeira\r\n-Herdade do Vau', 'http://images.impresa.pt/visao/2018-09-11-8R9A0245.jpg-1/original/mw-1240', 2),
+(9, 'Rota da Pigarça', 'Uma rota de 8 adegas( duração miníma de 3 horas), com a seguinte sequência:\r\n-Herdade da Malhadinha Nova\r\n-Herdade dos Grous\r\n-Herdade da Mingorra\r\n-Sociedade Agrícola da Figueirinha\r\n-Monte da Pigarça\r\n-Herdade do Rocim\r\n-Machados\r\n-Vinhos Margaça', 'http://www.enotur.pt/img/adegas/galeria/737x380_18a16b3540cc63c394378a1e0164c324.jpg', 2),
+(10, 'Rota do Ribafreixo', 'Uma rota de 5 adegas( duração miníma de 2 horas), com a seguinte sequência:\r\n-Herdade Grande\r\n-Quinta do Quetzal\r\n-Adega Cooperativa de Vidigueira\r\n-Ribafreixo Wines\r\n-Herdade do Sobroso', 'https://www.the-yeatman-hotel.com/fotos/marcas/herdade-do-sobroso-the-esta_9212408184f0c5c1b4284a.jpg', 2);
 
 -- --------------------------------------------------------
 
@@ -760,19 +783,19 @@ ALTER TABLE `district`
 -- AUTO_INCREMENT for table `favorites`
 --
 ALTER TABLE `favorites`
-  MODIFY `favorite_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `favorite_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `favorites_route`
 --
 ALTER TABLE `favorites_route`
-  MODIFY `favorites_route_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `favorites_route_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `local`
 --
 ALTER TABLE `local`
-  MODIFY `local_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=231;
+  MODIFY `local_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=232;
 
 --
 -- AUTO_INCREMENT for table `local_route`
@@ -784,7 +807,7 @@ ALTER TABLE `local_route`
 -- AUTO_INCREMENT for table `ranking`
 --
 ALTER TABLE `ranking`
-  MODIFY `ranking_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ranking_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `ranking_route`
