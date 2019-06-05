@@ -1,6 +1,7 @@
-.welcome-card ion-img {
+.welcome-card {
   max-height: 35vh;
   overflow: hidden;
+  background: rgb(255,255,255);
 }
 
 .icon{
@@ -8,15 +9,24 @@
   height: auto;
   display: block;
   margin: auto;
+  padding: 10px 0 0 0;
 }
 .sc-ion-card-ios-h{
   border-radius: 20px;
   margin: 0 10px 10px 10px;
 }
 .label{
-  font-size: 20px;
+  font-size: 25px;
   margin: 30px 0 0 10px;
+  color: #e06f21;
 }
 .label2{
+  padding: 15px 0 0 0;
+  font-size: 18px;
   margin: 0 10px;
+  color: #e06f21;
+}
+
+.content-home{
+  --ion-background-color: #f7f7f7;
 }
