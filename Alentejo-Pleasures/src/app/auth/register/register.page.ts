@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
+import {AuthService} from '../auth.service';
 
 
 @Component({
@@ -16,7 +17,7 @@ export class RegisterPage implements OnInit {
 
   register(form) {
     this.authService.register(form.value).subscribe((res) => {
-      this.router.navigateByUrl('home');
+      this.router.navigateByUrl('login');
     });
   }
 }

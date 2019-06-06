@@ -1,11 +1,8 @@
-<ion-content color="primary" padding>
+<ion-content class="content-login" padding >
   <form #form="ngForm" (ngSubmit)="login(form)">
-    <ion-grid>
+    <ion-grid style="align-content: baseline">
       <ion-row color="primary" justify-content-center>
         <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
-          <div text-center>
-            <h3>Login</h3>
-          </div>
           <div padding>
             <ion-item>
               <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>

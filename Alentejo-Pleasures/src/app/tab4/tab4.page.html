@@ -1,3 +1,7 @@
 <ion-content class="content-favorites">
-
+    <form #form="ngForm" (ngSubmit)="logout(form)">
+        <ion-button>
+            Logout
+        </ion-button>
+    </form>
 </ion-content>
